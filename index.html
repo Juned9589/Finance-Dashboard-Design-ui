@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Dashboard UI</title>
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">Finance</h2>
+
+    <nav>
+      <a class="active"><i class="fa-solid fa-chart-pie"></i> Dashboard</a>
+      <a><i class="fa-solid fa-wallet"></i> Wallet</a>
+      <a><i class="fa-solid fa-arrow-trend-up"></i> Analytics</a>
+      <a><i class="fa-solid fa-receipt"></i> Transactions</a>
+      <a><i class="fa-solid fa-gear"></i> Settings</a>
+    </nav>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <input type="text" placeholder="Search..." />
+      <div class="user">
+        <i class="fa-regular fa-bell"></i>
+        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+      </div>
+    </header>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="card">
+        <p>Total Balance</p>
+        <h3>$54,320</h3>
+        <span class="green">+12%</span>
+      </div>
+      <div class="card">
+        <p>Total Income</p>
+        <h3>$23,120</h3>
+        <span class="green">+8%</span>
+      </div>
+      <div class="card">
+        <p>Total Expense</p>
+        <h3>$12,450</h3>
+        <span class="red">-3%</span>
+      </div>
+    </section>
+
+    <!-- Chart + Activity -->
+    <section class="grid">
+
+      <!-- Chart -->
+      <div class="chart-card">
+        <h4>Balance Overview</h4>
+        <div class="chart">
+          <div class="bar" style="height:60%"></div>
+          <div class="bar" style="height:40%"></div>
+          <div class="bar" style="height:75%"></div>
+          <div class="bar" style="height:55%"></div>
+          <div class="bar" style="height:90%"></div>
+        </div>
+      </div>
+
+      <!-- Activity -->
+      <div class="activity">
+        <h4>Recent Activity</h4>
+
+        <div class="item">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg">
+          <div>
+            <p>Payment Received</p>
+            <span>$1,200</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://randomuser.me/api/portraits/men/12.jpg">
+          <div>
+            <p>Subscription</p>
+            <span>-$80</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://randomuser.me/api/portraits/men/76.jpg">
+          <div>
+            <p>Transfer</p>
+            <span>$560</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</div>
+
+</body>
+</html>
