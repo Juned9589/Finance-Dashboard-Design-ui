@@ -9,15 +9,13 @@ body {
   background: linear-gradient(180deg, #f5f7ff, #eef1ff);
 }
 
-/* ================= Layout ================= */
-
+ 
 .dashboard {
   display: flex;
   min-height: 100vh;
 }
 
-/* ================= Sidebar ================= */
-
+ 
 .sidebar {
   width: 240px;
   background: linear-gradient(180deg, #3f5efb, #5f75ff);
@@ -49,14 +47,11 @@ body {
   transform: translateX(5px);
 }
 
-/* ================= Main ================= */
-
+ 
 .main {
   flex: 1;
   padding: 30px;
 }
-
-/* ================= Topbar ================= */
 
 .topbar {
   display: flex;
@@ -90,8 +85,7 @@ body {
   border: 2px solid #5f75ff;
 }
 
-/* ================= Stats ================= */
-
+ 
 .stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -139,8 +133,7 @@ body {
   gap: 22px;
 }
 
-/* ================= Chart ================= */
-
+ 
 .chart-card {
   background: white;
   padding: 25px;
@@ -178,8 +171,7 @@ body {
   border-radius: 50%;
 }
 
-/* ================= Activity ================= */
-
+ 
 .activity {
   background: white;
   padding: 25px;
@@ -209,8 +201,7 @@ body {
   border-radius: 50%;
 }
 
-/* ================= Responsive ================= */
-
+ 
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;
